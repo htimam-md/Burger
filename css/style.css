@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #3d2514;
+    list-style-type: none;
+}
+
+
+body{
+    margin: 0 auto;
+        width: 1465px;
+    }
+
+.header {
+    background-image: url(../img/Burger-House-BACK.JPG);
+}
+
+.container-1 {
+    margin: 0 auto;
+    width: 89%;
+    overflow: hidden;
+    /* border: 1px solid yellowgreen; */
+}
+
+.left_side {
+    width: 38%;
+    float: left;
+}
+
+.logo_div {
+    width: 47%;
+}
+
+.logo_div img {
+    width: 100%
+}
+
+.right_side {
+    width: 61%;
+    float: right;
+}
+
+.delivery {
+    overflow: hidden;
+    text-align: end;
+    float: right;
+}
+
+.delivery_part {
+    margin-bottom: 9px;
+    width: 35%;
+    float: right;
+}
+
+.delivery_logo {
+    width: 10%;
+    float: left;
+}
+
+.delivery_logo img {
+    width: 100%;
+}
+
+.delivery_text {
+    float: right;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    float: left;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    padding: 43px;
+    font-size: 21px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    text-decoration: none;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.subtext {
+    display: inline-block;
+    margin-top: 175px;
+    /* border: 1px dashed green; */
+}
+
+.subtext p {
+    font-size: 20px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+}
+
+.left_side h1 {
+    font-size: 86px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.left_side h2 {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+.big_img img {
+    width: 100%;
+}
+
+.feature {
+    margin-top: 80px;
+    margin-bottom: 80PX;
+    text-align: center;
+}
+
+.feature h1 {
+    margin: 42px 0;
+    font-size: 50px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+}
+
+.feature_p {
+    margin: 80px auto;
+    width: 1105px;
+    height: 42px;
+}
+
+.feature_p p {
+    font-size: 17px;
+    line-height: 29px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.feature_cont.dropshadow {
+    filter: drop-shadow(18.656px 24.758px 21.5px rgba(0, 0, 0, 0.17));
+    background-color: #ffffff;
+}
+
+.feature_cont {
+    margin: 80px auto;
+    width: 89%;
+    overflow: hidden;
+}
+
+.upcoming_cont1 {
+    overflow: hidden;
+}
+
+.f_pic {
+    width: 48%;
+    float: left;
+    position: relative;
+}
+
+.f_pic img {
+    width: 100%;
+}
+
+.f_pic_text {
+    position: absolute;
+}
+
+.f_pic:nth-child(2) img {
+    margin-left: 10%;
+}
+
+.f_pic:nth-child(3) img {
+    margin-top: 28px;
+    margin-left: 10%;
+}
+
+.tasty {
+    margin: 70px auto;
+    width: 220px;
+}
+
+.tasty img {
+    width: 100%;
+}
+
+.f_3_pic {
+    float: left;
+    width: 31%;
+    padding: 1%;
+}
+
+.f_3_pic img {
+    width: 100%;
+}
+
+.f_3_pic h3 {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+
+.f_3_pic p {
+    font-size: 17px;
+    line-height: 21px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.btn {
+    margin-top: 33px;
+    width: 237px;
+    font-size: 17px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    background-color: red;
+    border: none;
+    padding: 9px;
+}
+
+.upcoming_cont {
+    width: 47%;
+    float: left;
+    padding: 15px;
+}
+
+.upcoming_cont h4 {
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+
+.upcoming_cont h3 {
+    font-size: 42px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+}
+
+.upcoming_cont p {
+    width: 531px;
+    height: 173px;
+    font-size: 21px;
+    line-height: 33px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.upcoming_cont-2 {
+    width: 47%;
+    float: left;
+    padding: 15px;
+}
+
+.upcoming_cont-2 img {
+    width: 100%;
+}
+
+.circle {
+    margin-top: 80px;
+}
+
+.circle ul {
+    float: left;
+}
+
+.circle ul li {
+    float: left;
+}
+
+.circle ul li div {
+    padding: 5px;
+}
+
+.circle-1 {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #ffc045;
+}
+
+.circle-2 {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+}
+
+.circle-3 {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+}
+
+.reservaton {
+    margin-top: 38px;
+    /* border: 1px solid red; */
+}
+
+.rsv_img_cont {}
+
+.rsv_container {
+    margin: 0 auto;
+    text-align: center;
+    /* width: 40%; */
+    position: relative;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.rsv_content {
+    /* border: 1px solid greenyellow; */
+    margin: 162px auto 93px;
+    width: 53%;
+    text-align: center;
+}
+
+.rsv_content h3 {
+    font-size: 31px;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+
+.rsv_content h2 {
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    /* filter: drop-shadow(3.936px 4.528px 0px #fee8bc); */
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.frm_cont {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.frm {
+    margin-top: 46px;
+    overflow: hidden;
+}
+
+.frm :nth-child(even) {
+    margin-left: 29px;
+}
+
+.field {
+    float: left;
+}
+
+.field input {
+    margin-bottom: 44px;
+    border: 1px solid #bebebe;
+    width: 282px;
+    height: 51px;
+    border-radius: 5px;
+}
+
+.frm_btn {
+    width: 282px;
+    height: 51px;
+    background-color: #bf2222;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.img-1 {
+    position: absolute;
+}
+
+.img-2 {
+    position: absolute;
+    right: 0;
+    top: 214px;
+}
+
+.img-3 {
+    position: absolute;
+    left: 147px;
+    top: 255px;
+}
+
+.footer {
+    margin: 18px auto;
+    width: 89%;
+    overflow: hidden;
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    background-image: url(../img/footer.jpg);
+    background-position: center;
+    position: relative;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.f_content {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.left_footer {
+    margin-top: 83px;
+    width: 45%;
+    float: left;
+    /* position: absolute; */
+
+}
+
+.copy {
+    /* margin-bottom: 17px; */
+    width: 30%;
+    /* position: absolute; */
+    /* overflow: hidden; */
+    float: left;
+}
+
+.copy p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "BebasNeueRegular";
+}
+
+.f_p {
+    margin: 48px 0 95px;
+    width: 520px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.right_footer {
+    margin-top: 215px;
+    width: 29%;
+    float: right;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.rght_cont1 {
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.loc {
+    width: 8%;
+    float: left;
+}
+
+.loc img {
+    /* width: 100%; */
+    /* background-color: #ffffff; */
+}
+
+.loc_text {
+    width: 83%;
+    float: right;
+    font-size: 17px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Bebas Neue";
+    /* padding: 0 44px; */
+}
+
+.sc_icon {
+    width: 14%;
+    float: right;
+}
+
+.sc_icon ul {
+    float: left;
+}
+
+.sc_icon ul li {
+    padding: 0 5px;
+    float: left;
+}
+
+.sc_icon ul li a img {
+    width: 100%;
+}
+
+.footer_lower {
+    clear: both;
+    overflow: hidden;
+}
